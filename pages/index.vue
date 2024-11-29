@@ -24,7 +24,7 @@
 
         <v-sheet class="d-flex flex-column pt-8" min-height="calc(100vh - 64px)" width="100%" color="transparent">
           <v-row no-gutters justify="end">
-            <MyYoutubeIframe key="test" />
+            <MyYoutubeIframe />
           </v-row>
 
           <v-row align="end">

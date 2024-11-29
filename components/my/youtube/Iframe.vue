@@ -1,4 +1,5 @@
 <template>
+  <client-only>
   <v-card
     :height="display.mdAndUp.value ? 400 : 300"
     class="pa-8 v-col-12 v-col-md-8"
@@ -13,6 +14,7 @@
       src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1&autoplay=1&mute=1">
     </iframe>
   </v-card>
+  </client-only>
 </template>
 
 <script lang="ts">
