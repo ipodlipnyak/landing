@@ -1,4 +1,4 @@
-name: deploy script
+name: deploy and build script
 on:
   workflow_call:
     inputs:
