@@ -1,34 +1,36 @@
 <template>
   <v-app light>
-    <v-app-bar
-      class="py-1"
-      scroll-behavior="fade-image"
-      name="header"
-      app
-      color="sand"
-    >
-      <template v-slot:prepend>
-        <v-img
-          class="shadow"
-          src="/sun.svg"
-          :width="100"
-        ></v-img>
-      </template>
+    <ClientOnly>
+      <v-app-bar
+        class="py-1"
+        scroll-behavior="fade-image"
+        name="header"
+        app
+        color="sand"
+      >
+        <template v-slot:prepend>
+          <v-img
+            class="shadow"
+            src="/sun.svg"
+            :width="100"
+          ></v-img>
+        </template>
 
-      <!--
-      <v-app-bar-title>
-        Title
-      </v-app-bar-title>
-      -->
+        <!--
+        <v-app-bar-title>
+          Title
+        </v-app-bar-title>
+        -->
 
-      <template v-slot:append>
-        <MyGoogleSignInBtn />
-      </template>
+        <template v-slot:append>
+          <MyGoogleSignInBtn />
+        </template>
 
-      <!--
-      <v-btn v-if="loggedIn" @click.stop="logout" color="primary">Logout</v-btn>
-      -->
-    </v-app-bar>
+        <!--
+        <v-btn v-if="loggedIn" @click.stop="logout" color="primary">Logout</v-btn>
+        -->
+      </v-app-bar>
+    </ClientOnly>
 
     <v-main>
       <slot />

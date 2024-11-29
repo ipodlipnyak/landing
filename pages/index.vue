@@ -219,10 +219,9 @@
 <script lang="ts">
 // import { MyYoutubeIframe } from '#build/components';
 import { useDisplay, useLayout } from 'vuetify';
-import { useAuthStore } from '~/stores';
 
 export default defineComponent({
-  middleware(ctx) {
+  middleware() {
     //
   },
   setup() {

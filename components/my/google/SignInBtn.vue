@@ -22,8 +22,6 @@
  * @see https://devbaji.github.io/vue3-google-login/
  */
 
-import { useGoogleStore } from '~/stores';
-
 export default defineComponent({
   setup(props, ctx) {
     const googleStore = useGoogleStore();

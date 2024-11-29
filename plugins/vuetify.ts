@@ -14,14 +14,14 @@ export default defineNuxtPlugin((app) => {
       themes: {
         dark: {
           colors: {
-            background: '#c62828',
+            background: '#00074b',
             sea: '#00074b',
             sand: '#c5975c',
           },
         },
         light: {
           colors: {
-            background: '#c62828',
+            background: '#00074b',
             sea: '#00074b',
             sand: '#c5975c',
           },
